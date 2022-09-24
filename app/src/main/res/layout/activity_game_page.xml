@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -60,25 +59,23 @@
     </RelativeLayout>
 
 
-
-
     <RelativeLayout
         android:layout_width="330dp"
         android:layout_height="8dp"
-        android:background="#F69e56"
-        android:layout_centerHorizontal="true"
         android:layout_above="@id/btn5"
-        android:layout_marginBottom="8dp">
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:background="@color/Yellow">
 
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="330dp"
         android:layout_height="8dp"
-        android:background="#F69e56"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/btn5"
-        android:layout_marginTop="8dp">
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@color/Yellow">
 
     </RelativeLayout>
 
@@ -88,7 +85,7 @@
         android:layout_centerVertical="true"
         android:layout_marginRight="-14dp"
         android:layout_toLeftOf="@id/btn5"
-        android:background="#F69e56">
+        android:background="@color/Yellow">
 
     </RelativeLayout>
 
@@ -96,9 +93,9 @@
         android:layout_width="8dp"
         android:layout_height="330dp"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="-14dp"
         android:layout_toRightOf="@id/btn5"
-        android:background="#F69e56"
-        android:layout_marginLeft="-14dp">
+        android:background="@color/Yellow">
 
     </RelativeLayout>
 
@@ -191,7 +188,7 @@
             android:id="@+id/ScoreX"
             android:layout_width="186dp"
             android:layout_height="72dp"
-            android:text="Player X : - 0"
+            android:text="Player X:- 0"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold">
@@ -202,7 +199,7 @@
             android:id="@+id/ScoreY"
             android:layout_width="186dp"
             android:layout_height="65dp"
-            android:text="Player Y : - 0"
+            android:text="Player Y:- 0"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold">
