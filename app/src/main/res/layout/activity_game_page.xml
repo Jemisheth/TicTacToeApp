@@ -86,9 +86,9 @@
         android:layout_width="8dp"
         android:layout_height="330dp"
         android:layout_centerVertical="true"
+        android:layout_marginRight="-14dp"
         android:layout_toLeftOf="@id/btn5"
-        android:background="#F69e56"
-        android:layout_marginRight="-14dp">
+        android:background="#F69e56">
 
     </RelativeLayout>
 
@@ -110,6 +110,7 @@
         android:layout_below="@+id/btn8"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
+        android:background="@drawable/button_shape"
         android:backgroundTint="@color/purple_200"
         android:text="RESET GAME"
         android:textColor="@color/white"
