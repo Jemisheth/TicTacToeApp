@@ -299,7 +299,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
 
         }
@@ -328,7 +328,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
         }
 
@@ -356,7 +356,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
         }
 
@@ -384,7 +384,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
         }
 
@@ -413,7 +413,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
         }
 
@@ -441,7 +441,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
         }
 
@@ -469,7 +469,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
         }
 
@@ -497,7 +497,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             xCount++;
-            playerx.setText("Score X :- "+String.valueOf(xCount));
+            playerx.setText("Score X:- "+String.valueOf(xCount));
 
         }
 
@@ -525,7 +525,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -554,7 +554,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -582,7 +582,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -610,7 +610,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -638,7 +638,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -666,7 +666,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -694,7 +694,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -722,7 +722,7 @@ public class GamePage extends AppCompatActivity {
             AlertDialog alertDialog = builder.create();
             alertDialog.show();
             oCount++;
-            playero.setText("Score Y :- "+String.valueOf(oCount));
+            playero.setText("Score Y:- "+String.valueOf(oCount));
 
         }
 
@@ -731,6 +731,7 @@ public class GamePage extends AppCompatActivity {
             if (i==9)
             {
 
+                // this dialog is for no player wins
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setMessage("No-One Wins").setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
@@ -752,7 +753,6 @@ public class GamePage extends AppCompatActivity {
 
                 AlertDialog alertDialog = builder.create();
                 alertDialog.show();
-
             }
         }
 
